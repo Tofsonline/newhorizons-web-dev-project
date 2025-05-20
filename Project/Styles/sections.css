@@ -1,7 +1,7 @@
 /* Home Section */
 
 .hero-section {
-  background-image: url("../images/hero-section-image.jpg");
+  background-image: url("/images/hero-section-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
