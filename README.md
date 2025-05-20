@@ -36,7 +36,7 @@ Throughout the project, I organised my files into folders for CSS, JavaScript an
 
 ## Live demo:
 
-[Insert your live site link here]
+https://tofsonline.github.io/newhorizons-web-dev-project/Project/
 
 Notes:
 
