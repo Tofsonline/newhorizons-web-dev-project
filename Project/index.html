@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesutofunmi Akinwunmi | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/sections.css" />
+    <link rel="stylesheet" href="Styles/projects.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg fixed-top"
+        style="background-color: white"
+        data-bs-theme="light"
+        id="navv"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: blueviolet; font-size: 19px; font-weight: 600"
+            >Jesutofunmi's Portfolio</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="nav" class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-section">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#projects-section">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#experience-section">Experience</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <!--Home-->
+    <section id="home">
+      <div class="hero-section">
+        <div class="hero-section-text">
+          <h1>Hi<span>,</span> I am Jesutofunmi Akinwunmi<span>.</span></h1>
+          <p>
+            A passionate front<span>-</span>end developer focused on building
+            responsive<span>,</span> interactive and user-friendly websites
+            using HTML<span>,</span> CSS and Javascript<span>.</span>
+          </p>
+          <button>
+            <a href="#contact-section">Contact</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about-section">
+      <div class="about-me">
+        <h2>About Me</h2>
+      </div>
+      <div class="about">
+        <img src="Images/IMG-20240922-WA0024.jpg" alt="about-me-image" />
+        <div class="about-me-content">
+          <p>
+            I am Jesutofunmi Akinwunmi, a frontend developer with a certificate
+            from the Advanced Frontend Development course at New Horizons. This
+            portfolio was created as part of a simulated job interview for a
+            Senior Frontend Developer position with Tech-Genie International,
+            demonstrating my technical and creative capabilities.
+          </p>
+          <p>
+            I specialize in building responsive, user-focused websites using
+            HTML5, CSS3 (Flexbox and Grid), and JavaScript. Throughout my
+            training, I developed several real-world projects that reflect both
+            my understanding of modern web practices and my attention to clean,
+            maintainable code.
+          </p>
+
+          <h3>Skills Overview</h3>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Responsive web design and mobile-first development</li>
+            <li>CSS Flexbox, Grid Layout, and basic animations</li>
+            <li>Version control with Git and GitHub</li>
+          </ul>
+
+          <h3>Career Interests</h3>
+          <p>
+            I'm passionate about building intuitive, scalable frontend
+            solutions. My goal is to work in a collaborative team where I can
+            contribute to high-impact products and continue growing in advanced
+            JavaScript frameworks and user experience design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects-section">
+      <div class="projects">
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-subsection">
+        <div class="container1">
+          <h3>Tip Calculator</h3>
+          <p>
+            Enter the bill amount and tip percentage to calculate the total.
+          </p>
+          <label for="bill">Bill amount:</label>
+          <input type="number" id="bill" />
+          <br />
+          <label for="tip">Tip percentage:</label>
+          <input type="number" id="tip" />
+          <br />
+          <button id="calculate">Calculate</button>
+          <br />
+          <label for="total">Total:</label>
+          <span id="total"></span>
+        </div>
+        <div class="container2">
+          <h3 class="heading">Weight Converter</h3>
+          <div class="input-container">
+            <label for="pounds">Pounds:</label>
+            <input
+              type="number"
+              id="input"
+              class="input"
+              step=".1"
+              placeholder="Enter number"
+            />
+          </div>
+          <p>Your weight in kg is: <span id="result"></span></p>
+          <p class="error" id="error"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills-section">
+      <div class="skills">
+        <h2>Skills</h2>
+      </div>
+
+      <h3>Frontend Development</h3>
+      <div class="skills-subsection">
+        <p>HTML5</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 94%; background-color: blueviolet"
+            ></div>
+          </div>
+          <p>94%</p>
+        </div>
+      </div>
+
+      <div class="skills-subsection">
+        <p>CSS3 (Flexbox & Grid)</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 82%; background-color: blueviolet"
+            ></div>
+          </div>
+          <p>82%</p>
+        </div>
+      </div>
+
+      <div class="skills-subsection">
+        <p>JavaScript (ES6+)</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 80%; background-color: blueviolet"
+            ></div>
+          </div>
+          <p>80%</p>
+        </div>
+      </div>
+
+      <h3>Design Tools</h3>
+      <div class="skills-subsection">
+        <p>Figma</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 88%; background-color: blueviolet"
+            ></div>
+          </div>
+          <p>88%</p>
+        </div>
+      </div>
+
+      <div class="skills-subsection">
+        <p>Canva</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 90%; background-color: blueviolet"
+            ></div>
+          </div>
+          <p>90%</p>
+        </div>
+      </div>
+
+      <h3>Version Control</h3>
+      <div class="skills-subsection">
+        <p>Git & GitHub</p>
+        <div class="skills-progress">
+          <div class="skills-bar">
+            <div
+              class="skills-fill"
+              style="width: 85%; background-color: blueviolet"
+            ></div>
+          </div>
+
+          <p>85%</p>
+        </div>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section id="experience-section">
+      <div class="experience">
+        <h2>Experience</h2>
+      </div>
+
+      <!-- New Horizons -->
+      <div>
+        <h3>New Horizons ICT Resource Center</h3>
+        <p><strong>Role:</strong> Frontend Developer Trainee</p>
+        <p><strong>Duration:</strong> January 2025 - April 2025</p>
+        <ul>
+          <li>
+            Completed the Advanced Frontend Development Certification Course,
+            focused on building responsive, interactive web applications.
+          </li>
+          <li>
+            Developed real-world projects using HTML5, CSS3 (Flexbox & Grid),
+            and JavaScript (ES6+).
+          </li>
+          <li>
+            Practiced mobile-first development and UI/UX design using tools like
+            Figma and Canva.
+          </li>
+          <li>
+            Used Git and GitHub for version control and collaborative coding
+            simulations.
+          </li>
+          <li>
+            Prepared a portfolio and participated in a mock interview for a
+            Senior Frontend Developer role with Tech-Genie International.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Internship -->
+      <div>
+        <h3>SoftSpark Technologies</h3>
+        <p><strong>Role:</strong> Frontend Development Intern</p>
+        <p><strong>Duration:</strong> August 2024 - November 2024</p>
+        <ul>
+          <li>
+            Assisted in developing and maintaining user-facing features on
+            client websites using HTML, CSS, and basic JavaScript.
+          </li>
+          <li>
+            Collaborated with senior developers to test and debug web interfaces
+            across different browsers and devices.
+          </li>
+          <li>
+            Gained experience working in a fast-paced development team and using
+            Agile practices.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Certification Project -->
+      <div>
+        <h3>Responsive Web Design Certification - freeCodeCamp</h3>
+        <p><strong>Role:</strong> Independent Learner</p>
+        <p><strong>Duration:</strong> May 2024 - July 2024</p>
+        <ul>
+          <li>
+            Completed over 300 hours of coding practice focused on HTML and CSS.
+          </li>
+          <li>
+            Built multiple certification projects, including a tribute page,
+            product landing page, and technical documentation site.
+          </li>
+          <li>
+            Earned certification upon successful submission and validation of
+            responsive design projects.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact-section">
+      <div class="contact">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact12">
+        <div class="contact1">
+          <form>
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Johndoe@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div><input type="submit" id="submit-button" /></div>
+          </form>
+        </div>
+        <div class="contact2">
+          <div>
+            <h3>Jesutofunmi Akinwunmi</h3>
+            <p>Frontend Developer</p>
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p>+234-817-936-8421</p>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>Jesutofunmiakinwunmi09@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <div>
+        <p>
+          &copy; <span id="year"></span> Jesutofunmi Akinwunmi. All rights
+          reserved.
+          <span id="datetime"></span>
+        </p>
+      </div>
+    </footer>
+    <!--Back to Top -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <script src="Scripts/script.js"></script>
+  </body>
+</html>
